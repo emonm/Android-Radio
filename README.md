@@ -19,7 +19,14 @@ Pre-requisites
 Screenshots
 -----------
 
-![Phone](screenshot/screen.png) ![Phone](screenshot/screen_1.png) ![Phone](screenshot/screen_2.png)
+Before
+
+![Phone](screenshot/screen.png)
+
+
+After
+
+![Phone](screenshot/screen_1.png) ![Phone](screenshot/screen_2.png)
 License
 -------
 
