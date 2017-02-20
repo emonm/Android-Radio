@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jaune"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:background="@color/transparent"
+        android:src="@drawable/afficheur" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/grille_hp" />
+
+    <ImageButton
+        android:id="@+id/prefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_pref" />
+
+    <ImageButton
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_timer" />
+
+    <TextClock
+        android:id="@+id/horloge"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="97dp"
+        android:format24Hour="k:mm"
+        android:textColor="@color/bleu_clair"
+        android:textSize="22dp"
+        android:typeface="normal" />
+
+    <TextClock
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="100dp"
+        android:format24Hour="EEEE dd MMMM"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/bleu_clair"
+        android:textSize="12dp"
+        android:typeface="normal" />
+
+
+    <TextView
+        android:id="@+id/station"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:gravity="center_horizontal"
+        android:text="Radio"
+        android:textColor="@color/bleu_clair"
+        android:textSize="36dp"
+        android:typeface="normal" />
+
+
+    <TextView
+        android:id="@+id/etat"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="en attente"
+        android:textAlignment="center"
+        android:textColor="@color/bleu_clair"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        android:typeface="normal" />
+
+
+    <ImageView
+        android:id="@+id/icon_play"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/ic_equalizer0" />
+
+    <TextView
+        android:id="@+id/bitrate"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="189dp"
+        android:text="0kb/s"
+        android:textColor="@color/bleu_clair"
+        android:textSize="8dp"
+        android:typeface="normal" />
+
+    <ImageView
+        android:id="@+id/icon_volume"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="177dp"
+        android:background="@drawable/volume0" />
+
+
+    <TextView
+        android:id="@+id/n_button1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="242dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/n_button2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="242dp"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/n_button3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="242dp"
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/n_button4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="242dp"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/n_button5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="273dp"
+        android:layout_marginTop="242dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp" />
+
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_radio" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_radio" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_radio" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="227dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/transparent"
+        android:longClickable="true"
+        android:src="@drawable/bouton_radio" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/transparent"
+        android:longClickable="true"
+        android:src="@drawable/bouton_radio" />
+
+
+    <TextView
+        android:id="@+id/button1_txt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="290dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button2_txt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="290dp"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button3_txt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="290dp"
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button4_txt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="290dp"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/button5_txt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="274dp"
+        android:layout_marginTop="290dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/black75"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="17dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_power" />
+
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_stop" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/transparent"
+        android:src="@drawable/bouton_play" />
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="left|top"
+    android:id="@+id/notification_layout"
+    android:background="@color/controls_bg_dark">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/notif_ombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notif_ombre"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="6dp"
+            android:paddingLeft="9dp"/>
+
+        <ImageView
+            android:id="@+id/notif_fond"
+            android:layout_width="26.8dp"
+            android:layout_height="42.5dp"
+            android:background="@color/jaune"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginLeft="19.5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notif_ecran_grille"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="6dp"
+            android:paddingLeft="9dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom de la radio à l'écoute"
+            android:textColor="@color/white"
+            android:textSize="13.5dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/notif_ombre"
+            android:layout_marginStart="9dp"
+            android:id="@+id/notif_name"
+            android:paddingTop="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="état du lecteur"
+            android:textColor="@color/white_10"
+            android:textSize="12dp"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/notif_ombre"
+            android:layout_marginStart="9dp"
+            android:id="@+id/notif_text"
+            android:paddingTop="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Tapotez pour ouvrir)"
+            android:textColor="@color/white_10"
+            android:textSize="10dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:paddingTop="40dp"
+            android:paddingRight="5dp"/>
+
+
+<!--        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notif_name"
+            android:paddingTop="10dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play"
+                android:layout_gravity="left|bottom"
+                android:id="@+id/notif_play"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pause"
+                android:id="@+id/notif_pause"
+                android:onClick="PLAY"
+                android:textAlignment="center"
+                android:paddingLeft="30dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_stop"
+                android:id="@+id/notif_stop"
+                android:paddingLeft="30dp"/>
+
+        </LinearLayout>-->
+    </RelativeLayout>
+
+
+</LinearLayout>

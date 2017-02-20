@@ -1,0 +1,111 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="view.fragment.SettingsFragment">
+
+<!-- These settings headers are only used on tablets. -->
+
+    <PreferenceCategory
+        android:title="Thème">
+
+        <org.oucho.radio.utils.color.ColorPickerPreference
+            android:key="colorRADIO"
+            android:title="Couleur de la radio"
+            android:defaultValue="@color/jaune"
+            hexValue="true"/>
+
+        <org.oucho.radio.utils.color.ColorPickerPreference
+            android:key="colorTXT"
+            android:title="Couleur du texte des boutons"
+            android:defaultValue="@color/black75"
+            alphaSlider="true"
+            hexValue="true"/>
+
+</PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Radio"/>
+
+    <PreferenceScreen
+        android:key="button_voicemail_setting_key"
+        android:title="Configuration des bouttons de radio"
+        android:persistent="false">
+
+        <PreferenceCategory
+            android:title="Radio 1"/>
+        <EditTextPreference
+            android:title="Nom"
+            android:capitalize="words"
+            android:defaultValue="Europe 1"
+            android:key="radio1a"
+            android:singleLine="true"/>
+        <EditTextPreference
+            android:title="URL"
+            android:capitalize="words"
+            android:defaultValue="http://e1-live-aac-64.scdn.arkena.com/europe1.aac"
+            android:key="radio1b"
+            android:singleLine="true"/>
+
+
+        <PreferenceCategory
+            android:title="Radio 2"/>
+        <EditTextPreference
+            android:title="Nom"
+            android:key="radio2a"
+            android:capitalize="words"
+            android:defaultValue="RTL"
+            android:singleLine="true"/>
+        <EditTextPreference
+            android:title="URL"
+            android:key="radio2b"
+            android:capitalize="words"
+            android:defaultValue="http://streaming.radio.rtl.fr/rtl-1-44-96"
+            android:singleLine="true"/>
+
+        <PreferenceCategory
+            android:title="Radio 3"/>
+        <EditTextPreference
+            android:title="Nom"
+            android:capitalize="words"
+            android:defaultValue="RMC"
+            android:key="radio3a"
+            android:singleLine="true"/>
+        <EditTextPreference
+            android:title="URL"
+            android:capitalize="words"
+            android:defaultValue="http://rmc.scdn.arkena.com/rmc.mp3"
+            android:key="radio3b"
+            android:singleLine="true"/>
+
+        <PreferenceCategory
+            android:title="Radio 4"/>
+        <EditTextPreference
+            android:title="Nom"
+            android:capitalize="words"
+            android:defaultValue="Fun Radio"
+            android:key="radio4a"
+            android:singleLine="true"/>
+        <EditTextPreference
+            android:title="URL"
+            android:capitalize="words"
+            android:defaultValue="http://streaming.radio.funradio.fr/fun-1-44-96"
+            android:key="radio4b"
+            android:singleLine="true"/>
+
+        <PreferenceCategory
+            android:title="Radio 5"/>
+        <EditTextPreference
+            android:title="Nom"
+            android:capitalize="words"
+            android:defaultValue="NRJ"
+            android:key="radio5a"
+            android:singleLine="true" />
+        <EditTextPreference
+            android:title="URL"
+            android:capitalize="words"
+            android:defaultValue="http://mp3lg3.tdf-cdn.com/5008/nrj_121136.mp3"
+            android:key="radio5b"
+            android:singleLine="true" />
+
+
+    </PreferenceScreen>
+</PreferenceScreen>

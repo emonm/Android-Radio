@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Radio</string>
+
+    <string name="action_settings">Configuration</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Choisir la couleur </string>
+    <string name="press_color_to_apply">Appuyez sur la couleur pour appliquer</string>
+
+
+    <string name="timer_info" formatted="false">%02d:%02d:%02d</string>
+    <string name="start">démarrer</string>
+    <string name="cancel">annuler</string>
+    <string name="continuer">continuer</string>
+    <string name="cancel_timer">annuler le timer</string>
+    <string name="impossible">0 impossible</string>
+
+
+    <string name="heure_singulier">heure</string>
+    <string name="heure_pluriel">heures</string>
+
+    <string name="minute_singulier">minute</string>
+    <string name="minute_pluriel">minutes</string>
+
+    <string name="arret">Arrêt dans</string>
+    <string name="et">et</string>
+
+    <string name="stop_timer">Timer arrêté</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>
