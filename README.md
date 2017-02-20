@@ -18,6 +18,9 @@ Screenshots
 
 ![Phone](screenshot/screen.png)
 
+![Phone](screenshot/screen_1.png)
+
+![Phone](screenshot/screen_2.png)
 License
 -------
 
