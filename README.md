@@ -1,7 +1,10 @@
 # Radio
 
 
-Internet radio for android. It is enhanced version of Internet radio using Android Fragments.
+Internet radio for android. It is enhanced version of Internet radio build by https://github.com/Old-Geek/Radio .
+This project simply break down Activity code using Android Fragments see
+
+http://stackoverflow.com/questions/42153697/android-changing-a-normal-layout-to-tab-layout-error-in-image-buttons-and-other.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/3297d1140d784847a1c617da31a86c51)](https://www.codacy.com/app/icare-slak/Radio)
 
@@ -16,11 +19,7 @@ Pre-requisites
 Screenshots
 -----------
 
-![Phone](screenshot/screen.png)
-
-![Phone](screenshot/screen_1.png)
-
-![Phone](screenshot/screen_2.png)
+![Phone](screenshot/screen.png) ![Phone](screenshot/screen_1.png) ![Phone](screenshot/screen_2.png)
 License
 -------
 
