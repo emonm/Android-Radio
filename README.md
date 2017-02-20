@@ -1,7 +1,7 @@
 # Radio
 
 
-Internet radio for android.
+Internet radio for android. It is enhanced version of Internet radio using Android Fragments.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/3297d1140d784847a1c617da31a86c51)](https://www.codacy.com/app/icare-slak/Radio)
 
